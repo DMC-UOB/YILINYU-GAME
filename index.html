@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  <title>Game</title>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      overflow: hidden;
+    }
+
+    .game-wrapper {
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100dvh;
+      background: #000;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+    }
+
+    @supports not (height: 100dvh) {
+      .game-wrapper {
+        height: 100vh;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="game-wrapper">
+    <iframe 
+      src="<iframe src="https://itch.io/embed/4572759" frameborder="0" width="552" height="167"><a href="https://yyy32.itch.io/remain-visible">REMAIN VISIBLE by YYY32</a></iframe>"
+      allowfullscreen
+      allow="fullscreen; gamepad; autoplay"
+      scrolling="no">
+    </iframe>
+  </div>
+</body>
+</html>
